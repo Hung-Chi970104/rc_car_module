@@ -7,3 +7,9 @@ After learning RP2040, I decided to build an RC Car module based off that. Letâ€
 - USB-C for MCU power supply + communication
 - TB6612FNG motor driver
 - nrf24l01 radio receiver
+
+## Images
+![schematic](assets/rc_car_schematic.png)
+![pcb](assets/rc_car_pcb.png)
+![3d_front](assets/rc_car_3d_front.png)
+![3d_back](assets/rc_car_3d_back.png)
