@@ -1,5 +1,6 @@
 # Remote-controlled Car Module
 After learning RP2040, I decided to build an RC Car module based off that. Let’s start with embedding an RP2040 into a PCB with a TB6612FNG, and later on we’ll add radio!!!
+![rendered_image](assets/rc_car_module.png)
 
 ## Components
 - RP2040 + Crystal + Flash Storage
