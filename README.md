@@ -1,4 +1,4 @@
-# Remote-controlled Car Module
+# Rukus: Pocket Robotics Control Computer
 After learning RP2040, I decided to build an RC Car module based off that. Let’s start with embedding an RP2040 into a PCB with a TB6612FNG, and later on we’ll add radio!!!
 ![rendered_image](assets/rc_car_module.png)
 
