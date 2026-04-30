@@ -18,6 +18,8 @@ After learning RP2040, I decided to build an RC Car module based off that. Letâ€
 ![schematic](assets/rc_car_schematic.svg)
 
 ### PCB Layouts
+![pcb](assets/RC%20Car%20Module-B_Cu.svg)
+![pcb](assets/RC%20Car%20Module-F_Cu.svg)
 ![pcb](assets/rc_car_pcb.png)
 
 ### 3D Model
