@@ -84,7 +84,7 @@
 		(tenting front back)
 		(grid_origin 135.65 60.96)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_55555554)
+			(layerselection 0x00000000_00000000_55555555_55555555)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_0000a0af)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -120,7 +120,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "assets/")
 		)
 	)
 	(net 0 "")
