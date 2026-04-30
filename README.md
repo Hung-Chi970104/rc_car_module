@@ -3,6 +3,12 @@ After learning RP2040, I decided to build an RC Car module based off that. Letâ€
 
 ![rendered_image](assets/rc_car_module.png)
 
+
+## Demo Video
+https://github.com/user-attachments/assets/f6da3c5c-2f20-4054-9eab-c4b8ad8e2e0a
+https://github.com/user-attachments/assets/a237940f-da78-4733-91b2-979578ba8ca9
+
+
 ## Components
 - RP2040
 - 12MHz Crystal (ABM8-272-T3)
