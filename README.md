@@ -1,5 +1,5 @@
 # Rukus: Pocket Robotics Control Computer
-After learning RP2040, I decided to build an RC Car module based off that. Let’s start with embedding an RP2040 into a PCB with a TB6612FNG, and later on we’ll add radio!!!
+Welcome to Rukus! The most powerful and versatile pocket-size robotic control computer that can handle up 18V and 3.2A of peak current. It also features a powerful dual-core RP2040 MCU, allowing users to run heavy computing and even TinyML!
 
 ![rendered_image](assets/rc_car_module.png)
 
@@ -32,5 +32,9 @@ https://github.com/user-attachments/assets/f6da3c5c-2f20-4054-9eab-c4b8ad8e2e0a
 ![3d_front](assets/rc_car_3d_front.png)
 ![3d_back](assets/rc_car_3d_back.png)
 
-## Conclusion
-This is my fourth project using RP2040 chip, which I thought would be easy. But I still faced lots challenges like adding votlage converters to avoid using more than one batteries and my misunderstanding of PWM arrnagement. There are only 8 slices of PWM in RP2040, and I didn't know that I had to be careful because each slice could only be set to one frequency tho it still allows different duty cycles.
+# How to order
+- Download the zip file
+- Upload the zip file to JLCPCB
+- Select PCBA and continue
+- Upload BOM.csv and position.csv
+- Select the parts and submit payment
