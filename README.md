@@ -19,6 +19,11 @@ https://github.com/user-attachments/assets/f6da3c5c-2f20-4054-9eab-c4b8ad8e2e0a
 - Motor Driver (TB6612FNG)
 
 ## PCBs
+- 2 layers
+- Single-sided component placement
+- 2.6mm board thickness
+- HASL (with lead) surface finish
+- 1oz outer copper weight
 
 ### PCB Schematic
 ![schematic](assets/rc_car_schematic.svg)
