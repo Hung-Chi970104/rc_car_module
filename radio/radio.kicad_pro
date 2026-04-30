@@ -51,8 +51,95 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|54992500|26442500|a181d1dd-f542-422a-97f1-fabaeb915866|422ba119-f44f-4254-947a-c45d68fc4cc1",
+          ""
+        ],
+        [
+          "clearance|54992500|28742500|387cdd92-6eeb-4d11-826a-98c5cb210b23|54d85d6b-4e8f-46f1-b843-cb1e109d9ca2",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|37862500|31662500|3b3fee25-a739-4c0d-b1dc-a568226a973d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|46142500|31942500|d0541e55-abcc-4ca8-9de9-6435e8242195|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|57430000|33642500|64e92230-e48d-4bd4-92f0-cd02bd460850|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "shorting_items|54992500|26892500|2bb09d51-3207-4bd5-8ad2-2f63dba97b0b|422ba119-f44f-4254-947a-c45d68fc4cc1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|54992500|26442500|a181d1dd-f542-422a-97f1-fabaeb915866|422ba119-f44f-4254-947a-c45d68fc4cc1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|54992500|26892500|2bb09d51-3207-4bd5-8ad2-2f63dba97b0b|422ba119-f44f-4254-947a-c45d68fc4cc1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|54992500|28742500|387cdd92-6eeb-4d11-826a-98c5cb210b23|54d85d6b-4e8f-46f1-b843-cb1e109d9ca2",
+          ""
+        ],
+        [
+          "solder_mask_bridge|56752500|33442500|26a30729-3ecf-4cbe-898b-2d83dc9913be|97c9a620-35d7-49b5-ab78-94fddb0aabe8",
+          ""
+        ],
+        [
+          "solder_mask_bridge|56752500|38142500|79ae5ab3-4896-452b-94a1-9792ae5d2233|983b575c-a5ed-47d9-8d5f-d4709cd0e796",
+          ""
+        ],
+        [
+          "solder_mask_bridge|57252500|31442500|26a30729-3ecf-4cbe-898b-2d83dc9913be|e49fa1b0-e77b-478f-b5f9-91bc6ba53284",
+          ""
+        ],
+        [
+          "solder_mask_bridge|57252500|36142500|79ae5ab3-4896-452b-94a1-9792ae5d2233|5d056fc4-72f2-4617-a523-27817714a592",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|27342500|422ba119-f44f-4254-947a-c45d68fc4cc1|718a1d3c-999e-4388-b393-70b11555795c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|28742500|54d85d6b-4e8f-46f1-b843-cb1e109d9ca2|718a1d3c-999e-4388-b393-70b11555795c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|30942500|e49fa1b0-e77b-478f-b5f9-91bc6ba53284|718a1d3c-999e-4388-b393-70b11555795c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|33942500|97c9a620-35d7-49b5-ab78-94fddb0aabe8|f62c11ce-5815-4255-9ee0-4090f3ec8bdf",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|35642500|5d056fc4-72f2-4617-a523-27817714a592|f62c11ce-5815-4255-9ee0-4090f3ec8bdf",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|38642500|983b575c-a5ed-47d9-8d5f-d4709cd0e796|28d0ea92-90ec-43f4-9bc0-090c679b452f",
+          ""
+        ],
+        [
+          "solder_mask_bridge|59392500|40342500|a6c759db-732d-40e8-907b-cc6aa0b9677d|28d0ea92-90ec-43f4-9bc0-090c679b452f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -133,7 +220,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +267,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.18,
+        0.2,
+        0.3,
+        0.5,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +301,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -494,7 +593,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://no_space.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
